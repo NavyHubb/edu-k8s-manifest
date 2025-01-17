@@ -35,7 +35,7 @@ spec:
             httpGet:
               path: /               # "/" 호출로 상태 확인
               port: 80
-            initialDelaySeconds: 10  # 컨테이너 시작 후 5초 뒤부터 체크
+            initialDelaySeconds: 10  # 컨테이너 시작 후 10초 뒤부터 체크
             periodSeconds: 10       # 10초마다 상태 확인
             failureThreshold: 3     # 3번 실패 시 Pod 재시작
       imagePullSecrets:

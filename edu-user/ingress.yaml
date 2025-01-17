@@ -10,7 +10,7 @@ spec:
     - host: edu-user.211.254.214.68.sslip.io
       http:
         paths:
-          - path: /{userNo}
+          - path: /
             pathType: Prefix
             backend:
               service:

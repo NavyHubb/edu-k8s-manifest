@@ -10,7 +10,7 @@ spec:
     - host: edu-goods.211.254.214.68.sslip.io
       http:
         paths:
-          - path: /{goodsNo}
+          - path: /
             pathType: Prefix
             backend:
               service:

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: edu-goods-app
-          image: seongjaegreen/edu-goods:v0.0.1
+          image: seongjaegreen/edu-goods:v0.0.2
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

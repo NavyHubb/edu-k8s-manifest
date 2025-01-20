@@ -8,8 +8,8 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: edu-goods-deployment
-  minReplicas: 2  # 최소 Pod 수
-  maxReplicas: 3  # 최대 Pod 수
+  minReplicas: 2
+  maxReplicas: 3
   metrics:
     - type: Resource
       resource:

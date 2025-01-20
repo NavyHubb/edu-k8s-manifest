@@ -4,7 +4,7 @@ metadata:
   name: edu-goods-deployment
   namespace: edu-goods
 spec:
-  replicas: 1  # HPA에 의해 관리될 예정
+  replicas: 1
   selector:
     matchLabels:
       app: edu-goods

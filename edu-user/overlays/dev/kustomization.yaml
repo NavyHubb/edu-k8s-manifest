@@ -1,0 +1,6 @@
+resources:
+  - ../../base/
+
+images:
+  - name: seongjaegreen/edu-user
+    newTag: latest    # 애플리케이션 레포지토리의 워크플로우에 의해 태그는 덮어씌워짐

@@ -4,7 +4,7 @@ metadata:
   name: edu-user-config
   namespace: edu-user
 data:
-  APP_ENV: "production"
+  APP_ENV: "development"
   APP_DEBUG: "false"
   APP_NAME: "edu-user"
-  SPRING_PROFILES_ACTIVE: "prod"
+  SPRING_PROFILES_ACTIVE: "dev"

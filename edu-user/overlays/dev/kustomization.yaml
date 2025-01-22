@@ -3,6 +3,6 @@ resources:
 
 images:
 - name: seongjaegreen/edu-user
-  newTag: "202501222023"
+  newTag: "202501222053"
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization

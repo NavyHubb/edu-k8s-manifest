@@ -6,4 +6,4 @@ kind: Kustomization
 
 images:
 - name: seongjaegreen/edu-goods
-  newTag: "202501222106"
+  newTag: "202501231042"

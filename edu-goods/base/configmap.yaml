@@ -7,4 +7,4 @@ data:
   APP_ENV: "production"
   APP_DEBUG: "false"
   APP_NAME: "edu-goods"
-  SPRING_PROFILES_ACTIVE: "prod"
+  SPRING_PROFILES_ACTIVE: "dev"
